@@ -1,12 +1,12 @@
 # Exercício HTML + CSS Avançado - Menu com Flexbox
 
-Exercício de HTML e CSS avançado para praticar o que aprendi na extensão universitária Dev Full Stack DevEmDobro até o presente momemto.
+Exercício de HTML e CSS avançado para praticar o que aprendi na extensão universitária Dev Full Stack DevEmDobro até o presente momento.
 
 ## Recursos
 
 Este exercício é apenas para demonstrar o que foi aprendido, englobando HTML, CSS e o FlexBox, principal atributo.
 A preocupação foi usar de maneira correta a estilização, para termos um layout reponsivo, a visualização do container central é perfeita tanto na visão desktop quando na visão mobile.
-Aperte F12 e escolha a visão de celular logo acima na barra de ferramentas do DevTolls e você poderá escolher a marca e modelo do seu aparelho acima para ter uma perfeita previsão da versão mobile.
+Aperte F12 e escolha a visão de celular logo acima na barra de ferramentas do DevTolls e você poderá escolher a marca e modelo do seu aparelho acima para ter uma perfeita previsão da versão mobile. Ou você pode usar a extensão do Chrome "Responsive Viewer"
 
 ## Tecnologias utilizadas
 
