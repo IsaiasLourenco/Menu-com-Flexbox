@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-family: Public Sans;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 5px;
+
+}
+
+.menu li {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logoDraw {
+    position: relative;
+    margin-right: 0;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    width: 45px;
+    height: 42px;
+    top: 45px;
+    left: 44.41px;
+    margin-right: 0;
+
+}
+
+.thebank {
+    display: inline-block       ;
+    width: 80;
+    height: 24;
+    top: 55px;
+    left: 95px;
+    margin-right: auto;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23.5px;
+    letter-spacing: 0%;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.simples {
+    width: 42;
+    height: 18;
+    top: 59px;
+    left: 869px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.63px;
+    letter-spacing: 0%;
+    margin-top: 0;
+}
+
+.sobre {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.63px;
+    letter-spacing: 0%;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.fundo {
+    width: 55px;
+    height: 40px;
+    margin-top: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+.menu .mobile_image {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+        gap: 10px; 
+        width: 100%;
+        margin: 0; 
+        padding: 0;
+    }
+
+    .logo-container {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        width: 80px; 
+    }
+
+    .menu .thebank {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .sobre {
+        width: 100%; 
+        color: white; 
+    }
+
+    .menu li {
+        width: auto; 
+        text-align: center;
+        padding: 10px 0; 
+    }
+
+    .menu .desktop_image {
+        display: none;
+    }
+
+    .menu .mobile_image {
+        display: block;
+    }
+
+}
